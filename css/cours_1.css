@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'sf_wonder_comicbold';
+    src: url('SF_Wonder_Comic_Bold-webfont.eot');
+    src: url('SF_Wonder_Comic_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SF_Wonder_Comic_Bold-webfont.woff2') format('woff2'),
+         url('SF_Wonder_Comic_Bold-webfont.woff') format('woff'),
+         url('SF_Wonder_Comic_Bold-webfont.ttf') format('truetype'),
+         url('SF_Wonder_Comic_Bold-webfont.svg#sf_wonder_comicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@keyframes animation {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(10px) rotate(360deg);
+    }
+}
+
+.presentation img {
+   height: 200px;
+   border-radius: 50%;
+
+}
+.presentation img:hover{
+    animation: animation 1s; 
+}
+
+.bloc3 img {
+    height:500px;
+    width: 400px;;
+ }
+
+h1 {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+}
+
+li{
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Georgia', 'Courier New', Courier, monospace;
+}
+
+body{
+   background-color: rgba(86, 153, 209, 0.233);
+
+}
+
+/*****BIGBLOC********/
+.bigbloc1{
+
+display: inline-block;
+width: 250px;
+position: fixed;
+text-align: center;
+z-index: 1;
+top:0;
+right: 0;
+padding: 10px 20px 10px;
+height: 100%;
+background-color: rgba(212, 56, 56, 0.911)
+
+}
+.bigbloc2{
+ border:solid red;
+ float:left;
+ margin:-8px;
+}
+
+.bloc3{
+    float: left;
+    text-align: center;
+    width: 90%;
+}
+
+/********************************************firstbloc options*************************************************/
+.firstbloc{
+    width: 100%;
+    display: inline-flex;
+    
+}
+.firstbloc h2{
+    margin-left: 40px;
+}
+.cv{
+    display: inline-block;
+}
+.competences {
+    width:25%;
+}
+
+.formation  {    
+    width:25%;
+}
+
+.experience{
+    width:25%;
+}
+/******************************secondbloc*********************************/
+.secondbloc{
+    margin-left: 40px;
+    width: 80%;
+}
+#texte1{
+    float: left;
+    width:30%;
+}
+#texte2{
+    float: left;
+    width:40%;
+    margin-left: 50px;
+}
+
+.centered{
+    color:white;
+    background-color: blue;
+}
+
+#james{
+    width: 200px;
+    height: 100px;
+}
